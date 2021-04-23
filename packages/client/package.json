@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-boilerplate",
+  "name": "nvapp-client",
   "version": "3.0.3",
   "private": true,
   "proxy": "http://localhost:4000/",

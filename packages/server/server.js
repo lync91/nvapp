@@ -13,6 +13,7 @@ const { mergeTypeDefs, mergeResolvers } = require("@graphql-tools/merge");
 const { loadFilesSync } = require("@graphql-tools/load-files");
 const cloudinary = require("cloudinary");
 const bodyParser = require("body-parser");
+const { Mongoose, model } = require("mongoose");
 
 //express server
 const app = express();

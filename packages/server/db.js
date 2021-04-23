@@ -1,5 +1,10 @@
+const fs = require('fs');
 require("dotenv").config();
 const mongoose = require("mongoose");
+
+fs.readdirSync(__dirname + '/models').forEach(function (filename) {
+  if (~filename.indexOf('.js')) require(__dirname + '/models/' + filename);
+});
 
 module.exports = {
   db: async () => {

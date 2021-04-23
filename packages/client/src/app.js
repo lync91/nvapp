@@ -11,7 +11,7 @@ import Routes from './router';
 import AppProvider from './AppProvider';
 
 const client = new ApolloClient({
-  uri: 'http://192.168.0.11:4040/graphql',
+  uri: 'http://localhost:4040/graphql',
 });
 
 const App = () => (

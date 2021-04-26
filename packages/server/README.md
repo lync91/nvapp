@@ -1,11 +1,3 @@
-# graphQL-express
+# nodejs-typescript-express-apollo-graphql-starter
 
-#### To install dependencies
-```
-yarn install
-```
-
-#### To start the server
-```
-yarn start
-```
+[See tutorial on Medium](https://medium.com/@th.guibert/basic-apollo-express-graphql-api-with-typescript-2ee021dea2c)

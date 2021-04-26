@@ -1,6 +1,19 @@
-node_modules/
-note.md
+/node_modules
+/dist
 
-config
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
 
+# System Files
+.DS_Store
+Thumbs.db
+
+# Config
+conf/env.json
 .env

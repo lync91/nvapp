@@ -22,6 +22,9 @@ db();
 app.use(cors());
 app.use(bodyParser.json({ limit: "5mb" }));
 
+// app.get('/', (req, res) => {})
+app.use('/', express.static('public'))
+
 //graphql server
 
 //types query/mutation/subscription

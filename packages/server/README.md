@@ -1,4 +1,19 @@
-# Apollo + Typescript + Codegen + File split boilerplate
+# express-graphql-demo
+Basic express GraphQL setup with mock data for testing graphql queries and mutations
 
-Run npm install and npm start to run the graphql application. <br/>
-Graphql url is http://localhost:4000/graphql
+Run development enviroment using yarn
+
+```
+yarn install
+yarn run dev
+```
+
+or with npm
+
+```
+npm i
+npm run dev
+```
+
+after that the graphiql can be accessed at http://localhost:3000/graphql.
+
